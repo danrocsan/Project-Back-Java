@@ -14,7 +14,7 @@
 	<name>Helpdesk</name>
 	<description>Project HelpDesk</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>17</java.version>		
 	</properties>
 	<dependencies>
 		<dependency>
@@ -50,6 +50,13 @@
     		<groupId>org.hibernate.validator</groupId>
    			 <artifactId>hibernate-validator</artifactId>
    			 <version>6.2.5.Final</version>
+		</dependency>
+
+
+		<dependency>
+    	     <groupId>io.jsonwebtoken</groupId>
+   			 <artifactId>jjwt</artifactId>
+   			 <version>0.12.4</version>
 		</dependency>
 	</dependencies>
 
